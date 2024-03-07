@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+body {
+  font-family: "Comic Sans MS";
+  background-color: rgb(83, 80, 80);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.505);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: rgba(68, 67, 67, 0.135);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+.left {
+  font-size: 1.8rem;
+  padding-left: 15px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstSection > div {
+  width: 40%;
+}
+.leftSection {
+  font-size: 3rem;
+  margin: 100px 0px;
+}
+.rightSection img {
+  width: 100%;
+}
+b {
+  font-size: 5rem;
+  color: rgba(245, 245, 245, 0.702);
+}
+.us {
+  font-size: 1.3rem;
+}
+header nav div ul a:hover {
+  color: white;
+  font-size: 1.01rem;
+}
+#element,
+h1 {
+  color: rgba(245, 245, 245, 0.702);
+}
+.secondSection {
+  text-align: center;
+  margin: 50px;
+}
+h1 {
+  font-size: 4rem;
+  margin: 30px;
+  padding-top: 100px;
+}
+.secondSection div p {
+  font-size: 1.5rem;
+  color: rgba(245, 245, 245, 0.861);
+}
+strong {
+  color: white;
+}
+.about {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 40px 50px;
+  background-color: #22212167;
+  backdrop-filter: blur(100px);
+  box-shadow: 6px 6px 4px black;
+}
+img {
+  border-radius: 45%;
+  filter: drop-shadow(5px 5px 5px rgba(54, 53, 53, 0.978));
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(137, 130, 130);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 12px;
+  height: 40px;
+  border: 0.5px solid white;
+}
+
+#myBtn:hover {
+  background-color: #222121;
+}
+
+.qualifications {
+  text-align: center;
+}
+.thirdSection {
+  margin: 50px;
+}
+.quali {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: rgb(68, 67, 67);
+  box-shadow: 6px 6px 4px black;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 12px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  height: 12px;
+  background-color: #04aa6d;
+  border-radius: 12px;
+}
+.css {
+  width: 80%;
+  height: 12px;
+  background-color: #2196f3;
+  border-radius: 12px;
+}
+.js {
+  width: 30%;
+  height: 12px;
+  background-color: #f44336;
+  border-radius: 12px;
+}
+.php {
+  width: 86%;
+  height: 12px;
+  background-color: #808080;
+  border-radius: 12px;
+}
+.c {
+  width: 92%;
+  height: 12px;
+  background-color: indigo;
+  border-radius: 12px;
+}
+.cpp {
+  width: 90%;
+  height: 12px;
+  background-color: violet;
+  border-radius: 12px;
+}
+.java {
+  width: 10%;
+  height: 12px;
+  background-color: orange;
+  border-radius: 12px;
+}
+.sql {
+  width: 85%;
+  height: 12px;
+  background-color: darkcyan;
+  border-radius: 12px;
+}
+.dart {
+  width: 95%;
+  height: 12px;
+  background-color: darksalmon;
+  border-radius: 12px;
+}
+.flutter {
+  width: 90%;
+  height: 12px;
+  background-color: darkred;
+  border-radius: 12px;
+}
+.python {
+  width: 75%;
+  height: 12px;
+  background-color: rgb(182, 8, 139);
+  border-radius: 12px;
+}
+
+#percent{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-bottom:4px;
+  padding-top:10px;
+}
+.ctn{
+  background-color: #2221214f;
+  backdrop-filter: blur(100px);
+  padding:40px;
+  border:2px solid white;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px black;
+}
+.css-selector {
+  background: linear-gradient(270deg, #1c3831, #184338, #2a194a);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.result-heading{
+  font-size: 20px;
+}
+
+.icons{
+  padding-top:30px;
+}
+.add-heading{
+  text-align:center;
+}
+.address{
+  border:2px solid white;
+  border-radius:12px;
+  padding:30px;
+  background-color:rgba(68, 67, 67, 0.28);
+  margin:45px;
+  box-shadow: 5px 5px 5px black;
+}
+.address table{
+  width:100%;
+}
+.data-heading{
+  font-size:20px;
+  color: rgba(255, 255, 255, 0.688);
+}
+td{
+  font-size:18px;
+  width:50%;
+}
+
+.status{
+  width:100%;
+  font-size:36px;
+  text-align: right;
+}
+#status-up{
+  color:rgba(255, 255, 0, 0.675);
+}
