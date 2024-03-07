@@ -1,12 +1,12 @@
 # Portfolio
 Welcome to my portfolio!
 
-This repository contains the source code and assets for my personal portfolio website. You can visit the live version of my portfolio at [Link](https://nk2552003.github.io/Portfolio/).
+This repository contains the source code and assets for my personal portfolio website. You can visit the live version of my portfolio at [Link](https://nk2552003.github.io/Portfolio/). (not responsive right now)(only for desktop)
 
 ## Features
-**About Me:** Learn about my background, skills, and interests.
-**Projects:** Explore the projects I have worked on, including descriptions and links to live demos or repositories.
-**Contact:** Reach out to me through the contact form or connect with me on social media.
+- **About Me:** Learn about my background, skills, and interests.
+- **Projects:** Explore the projects I have worked on, including descriptions and links to live demos or repositories.
+- **Contact:** Reach out to me through the contact form or connect with me on social media.
 
 ## Technologies Used:
   - HTML5
